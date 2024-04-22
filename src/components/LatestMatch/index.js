@@ -1,3 +1,4 @@
+// Write your code here
 import './index.css'
 
 const LatestMatch = props => {
@@ -28,7 +29,7 @@ const LatestMatch = props => {
           <img
             src={competingTeamLogo}
             className="latest-match-team-logo"
-            alt={`latest-${competingTeam}`}
+            alt={`latest match ${competingTeam}`}
           />
         </div>
         <hr className="separator" />
@@ -46,5 +47,4 @@ const LatestMatch = props => {
     </div>
   )
 }
-
 export default LatestMatch
